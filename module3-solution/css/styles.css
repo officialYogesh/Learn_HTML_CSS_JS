@@ -11,7 +11,6 @@
 
     #header-nav .container {
         margin-left: 2%;
-        
     }
 
     #header-nav #menu-toggler {
@@ -19,10 +18,18 @@
         right: 5%;
     }
 
+   
+    #collapsable-nav #menu-items a {
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        border: 1px solid #000;
+        font-weight: bold;
+    } 
+
     .navbar-brand {
         padding-top: auto;
     }
-
     .navbar-brand h1{ /* Brand name */
         position: relative;
         font-family: 'Lora', serif;
@@ -37,4 +44,4 @@
     .navbar-brand a:hover, .navbar-brand a:focus {
         text-decoration: none;
     }
-    */
+    
