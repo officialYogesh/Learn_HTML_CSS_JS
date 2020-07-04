@@ -45,3 +45,16 @@
         text-decoration: none;
     }
     
+/********** Body styles **********/
+
+    #heading {
+        font-weight: bold;
+        font-size: 2em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #dummy-text1 p {
+        background-color: #7952b3;
+        color: #fff;
+    }
