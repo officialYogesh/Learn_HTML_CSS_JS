@@ -1,0 +1,83 @@
+/********** Base Design **********/
+
+    body {
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+/********** HEADER **********/
+
+    #header-nav .container {
+        margin-left: 2%;
+    }
+
+    #header-nav #menu-toggler {
+        position: absolute;
+        right: 5%;
+    }
+
+   
+    #collapsible-nav #menu-items a {
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        border: 1px solid #000;
+        font-weight: bold;
+    } 
+
+    .navbar-brand {
+        padding-top: auto;
+    }
+    .navbar-brand h1{ /* Brand name */
+        position: relative;
+        font-family: 'Lora', serif;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: .75;
+    }
+    .navbar-brand a:hover, .navbar-brand a:focus {
+        text-decoration: none;
+    }
+    
+/********** Body styles **********/
+
+    #heading {
+        font-weight: bold;
+        font-size: 2em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #dummy-text1 .custom-para {
+        background-color: #ff4f66;
+        background-clip: content-box;
+        color: #000;
+        padding: 10px;
+    }
+    #dummy-text1 .inner-row {
+        padding: 10px;
+    }
+    #dummy-text1 .custom-para:nth-child(2) {
+        background-color: #a5e0d5;
+    }
+    #dummy-text1 .custom-para:nth-child(3) {
+        background-color: #00bbf9;
+    }
+
+    .container-fluid {
+        width: 98%;
+    }
+
+    .back-to-top h5 {
+        padding-top: 10px;
+        color: #000;
+    }
+    .back-to-top a:hover, .back-to-top a:focus {
+        text-decoration-style: none;
+    }
