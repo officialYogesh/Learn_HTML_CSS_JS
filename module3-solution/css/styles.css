@@ -1,0 +1,40 @@
+/********** Base Design **********/
+
+    body {
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+/********** HEADER **********/
+
+    #header-nav .container {
+        margin-left: 2%;
+        
+    }
+
+    #header-nav #menu-toggler {
+        position: absolute;
+        right: 5%;
+    }
+
+    .navbar-brand {
+        padding-top: auto;
+    }
+
+    .navbar-brand h1{ /* Brand name */
+        position: relative;
+        font-family: 'Lora', serif;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: .75;
+    }
+    .navbar-brand a:hover, .navbar-brand a:focus {
+        text-decoration: none;
+    }
+    */
